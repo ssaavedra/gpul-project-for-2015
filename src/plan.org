@@ -1,0 +1,240 @@
+* Slide Options                           :noexport:
+# ======= Appear in cover-slide ====================
+#+TITLE: Plan de dominación mundial
+#+SUBTITLE: Unha idea para incrementar a actividade de GPUL
+#+AUTHOR: Santiago Saavedra López
+#+EMAIL: presidente@gpul.org
+#+COMPANY: Grupo de Programadores e Usuarios de Linux
+
+# ======= Appear in thank-you-slide ================
+#+WWW: https://gpul.org
+#+GITHUB: https://github.com/gpul-org
+#+TWITTER: gpul_
+
+# ======= Appear under each slide ==================
+#+FAVICON: gpul-nuevo.svg
+#+ICON: gpul-atomico.svg
+#+HASHTAG: #gpul-pule
+
+# ======= Org settings =========================
+#+EXCLUDE_TAGS: noexport
+#+OPTIONS: toc:nil num:nil
+
+* Licencia
+  #+BEGIN_CENTER
+  O autor licencia estas diapositivas baixo a seguinte licencia:
+
+  Creative Commons Attribution Share-Alike 4.0 International.
+  #+END_CENTER
+
+  Evidentemente.
+
+
+* Misión de GPUL
+
+  #+BEGIN_QUOTE
+  Artigo 3. Os fins principais da asociación son:
+
+  1. Promoción do concepto de Software Libre e fomento do seu uso en
+     xeral e en particular na Universidade da Coruña.
+
+  2. Programación para estándares abertos como filosofía de
+     desenvolvemento e promoción dos mesmos.
+
+  3. Programación e desenvolvemento de aplicacións e programas
+     libres.
+
+  4. Achegamento do Software Libre á sociedade en xeral e ao
+     colectivo universitario en particular.
+
+  5. Fomento do uso de redes de comunicación (Internet) como medio
+     idóneo de comunicación entre programadores para desenvolvemento
+     conxunto de aplicacións.
+
+     [...]
+  #+END_QUOTE
+
+** A destacar
+   :PROPERTIES:
+   :ARTICLE:  large
+   :END:
+
+   #+BEGIN_QUOTE
+   - Programación e desenvolvemento de aplicacións e programas
+     libres.
+
+   - Achegamento do Software Libre á sociedade en xeral e ao
+     colectivo universitario en particular.
+   #+END_QUOTE
+
+* Poñerlle o /P/ de novo a GPUL
+   :PROPERTIES:
+   :ARTICLE:  flexbox vleft auto-fadein
+   :ASIDE:    left bottom
+   :SLIDE:    dark segue
+   :END:
+
+   *Grupo* de
+   *Programadores*, /de novo/,
+   e *Usuarios*
+   de *Linux*
+
+* Como se organiza GPUL?
+  :PROPERTIES:
+  :ARTICLE:  larger
+  :END:
+
+  1. Plan de Actividades anual xenérico
+  2. As actividades van xurdindo
+  3. Xustifícanse as actividades concretas dentro dos supostos xenéricos
+     1. Algunhas actividades poden xurdir de colaborar con outras AGUSL[fn:1]
+  4. GOTO 1
+
+* Alternativa de organización
+  :PROPERTIES:
+  :ARTICLE:  large
+  :END:
+  Un *proxecto* sobre o que desenvolver o marco de actividades.
+
+  O proxecto ha de ser sinxelo verticalmente, pero extensible
+  horizontalmente.
+
+* Exemplo de marco de traballo
+  :PROPERTIES:
+  :SLIDE:    segue dark
+  :END:
+
+** Marco de traballo: proxecto
+
+   Arredor de hardware que calquera puidese ter na casa: *Raspberry
+   Pi*.
+
+   Raspi $\longrightarrow$ ~IoT~[fn:2]
+
+   ¿Como?
+
+   - $\leadsto$ Fiado mediante charlas (de empresas ou particulares)
+   - $+$ Hackathon na que implementar o aprendido no anterior.
+
+** Organización temporal
+   - Semanal?
+   - Bisemanal?
+
+   Hai que pensalo. Sabemos*[fn:4] que:
+
+   Cuatrimestre $\approx$ 14 semanas lectivas.
+
+   A periodicidade regulará a densidade de charlas. Pode complicar a
+   búsqueda de ponentes en tempo.
+
+   A regularidade é boa para a rutina, que agradecerian os asistentes.**[fn:3]
+
+** Organización estratéxica
+   Xerárquica: limita as responsabilidades e o alcance de cada un
+
+   $\Rightarrow$ *menos choio para todos*.
+
+   Árbore:
+
+   #+ATTR_HTML: :class build
+   - Coordinación xeral :: comproba cohesión, reorganiza eventos se for
+     preciso...
+   - Coordinación temática :: atopa ponente, fixa horario da temática,
+     pon hitos, resume xornada
+   - Ponente :: da charla/dirixe hackathon, permite que GPUL almacene as
+     slides, e interactúa cos asistentes
+
+*** ASCII Art
+    #+BEGIN_SRC artist
+      +----------------------------------------+
+      | +------------------------------------+ |
+      | |          COORDINACIÓN XERAL        | |
+      | +------------------------------------+ |
+      +----------------------------------------+
+
+
+      +-----------------+  +--------------+ +-------------+
+      |   COORD. TEMA 1 |  |COORD. TEMA 2 | |COORD. TEMA 3|
+      +--------/----\---+  +-----\--------+ +-----\-------+
+      +-------/---+ +\-+   +------\-----+   +------\-----+
+      | PONENTE #1|/|#2|   | P. TEM. 2  |   |  P. TEM. 3 |
+      +-----------+ +--+   +------------+   +------------+
+    #+END_SRC
+
+*** Pode facerse?
+    :PROPERTIES:
+    :ARTICLE:  large
+    :END:
+
+    Contas rápidas. Supoñendo:
+
+    - 14 eventos
+    - 5 coordinadores temáticos
+
+    Cada un encárgase de 3 charlas *no ano*.
+
+** Exemplo de roadmap
+   :PROPERTIES:
+   :SLIDE:    segue dark quote
+   :ASIDE:    right bottom
+   :ARTICLE:  flexbox vleft auto-fadein
+   :END:
+
+*** Day 1
+    #+ATTR_HTML: :class build
+    - Intro ao proxecto (30 min)
+    - Intro a Python (30 min, supoñamos)
+    - Exposición de requisito para app sinxela
+    - Hacking time (1h)
+    - Intro a Git + Hub (45 min, básico: crear conta, subir código de app)
+    - Crear scaffold de app do proxecto en github.com/gpul-org
+    - fork dos asistentes
+
+Despois do evento na FIC,
+#+ATTR_HTML: :class build
+    - Cea de networking
+
+*** Day 2
+    #+ATTR_HTML: :class build
+    - Formación de grupos de traballo (10 min: ideal = pair programming)
+    - Exposición de requisitos para interfaz con módulos (15 min)
+    - Enseñar como funciona Raspberry Pi en vivo: GNU + Linux + GPIO (15 min)
+    - Hacking time (1h)
+    - Intro a GitHub PR's (10 min.)
+    - Revisar pull requests (30 min; code-review sen sabelo)
+    - Probas con GPIO (30 min.)
+    - Consensuar un API para acceder a GPIO, brainstorming dirixido
+      con ideas de módulos e programas-tipo (30 min.)
+    - Codificar + push dese API (45 min)
+    - Conclusións do día (10 min.)
+
+*** Seguintes días
+    #+ATTR_HTML: :class build
+    - Formación de grupos de traballo (cambiar os do día anterior)
+    - Intro a Agile
+    - Requisitos funcionais do sistema (engadir casos de uso/user stories/XX)
+    - Conectándose con outro dispositivo: Arduino + XBee
+    - Conectando dúas instancias do software (master/slave)
+    - Documentación: LaTeX, sphinx, pandoc, markdown, etc
+    - Impresión 3D: CAD dunha caixa con espazo para os cables do GPIO
+    - Interface web: Django, dashboard para o estado do sistema
+    - REST: exportando funcionalidades ao exterior
+    - Android: creando unha pequena interfaz con Material Design
+    - Multiplatform: creando unha interfaz con React-Native e Material-UI
+
+* Ese é o plan. Bugs? Ideas?
+  :PROPERTIES:
+  :ARTICLE:  flexbox vleft auto-fadein
+  :ASIDE:    right top
+  :SLIDE:  thank-you-slide segue
+  :END:
+
+* Footnotes
+
+[fn:4] * Creemos saber?
+
+[fn:3] ** Esto extrapolámolo do comportamento observado nos Xoves Libres
+
+[fn:2] IoT = Internet of Things
+
+[fn:1] AGUSL = Asociacións Galegas Usuarias de Software Libre
