@@ -14,7 +14,7 @@ build: clean src/plan.org
 
 upload-github: build
 	cd build && git init . && git add . && git commit -m "GH-pages lonely commit at $(date)"
-	cd build && git push git@github.com:ssaavedra/gpul-project-for-2015 HEAD:gh-pages
+	cd build && git push -f git@github.com:ssaavedra/gpul-project-for-2015 HEAD:gh-pages
 
 clean:
 	rm -fr $(OUTDIR)
