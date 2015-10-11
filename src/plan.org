@@ -12,8 +12,8 @@
 #+TWITTER: gpul_
 
 # ======= Appear under each slide ==================
-#+FAVICON: gpul-nuevo.svg
-#+ICON: gpul-atomico.svg
+#+FAVICON: images/gpul-nuevo.svg
+#+ICON: images/gpul-atomico.svg
 #+HASHTAG: #gpul-pule
 
 # ======= Org settings =========================
