@@ -60,11 +60,11 @@
    :END:
 
    #+BEGIN_QUOTE
-   - Programación e desenvolvemento de aplicacións e programas
-     libres.
+   3. [@3] Programación e desenvolvemento de aplicacións e programas
+      libres.
 
-   - Achegamento do Software Libre á sociedade en xeral e ao
-     colectivo universitario en particular.
+   4. Achegamento do Software Libre á sociedade en xeral e ao
+      colectivo universitario en particular.
    #+END_QUOTE
 
 * Poñerlle o /P/ de novo a GPUL
