@@ -17,4 +17,4 @@ upload-github: build
 	cd build && git push git@github.com:ssaavedra/gpul-project-for-2015 HEAD:gh-pages
 
 clean:
-	rm -r $(OUTDIR)
+	rm -fr $(OUTDIR)
