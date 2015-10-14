@@ -14,7 +14,7 @@
 # ======= Appear under each slide ==================
 #+FAVICON: images/gpul-nuevo.svg
 #+ICON: images/gpul-atomico.svg
-#+HASHTAG: #gpul-pule
+#+HASHTAG: #AXGPUL2015
 
 # ======= Org settings =========================
 #+EXCLUDE_TAGS: noexport
