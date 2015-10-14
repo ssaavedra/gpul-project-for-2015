@@ -172,12 +172,38 @@
     - 5 coordinadores temáticos
 
     Cada un encárgase de 3 charlas *no ano*.
+*** Pode facerse? (II)
+    :PROPERTIES:
+    :ARTICLE:  large
+    :END:
+
+    Contas rápidas. Supoñendo:
+
+    - 14 eventos
+    - 14 coordinadores temáticos
+
+    Cada un encárgase de *1 charla.*
+
+* hide
+  :PROPERTIES:
+  :ARTICLE:  flexbox vleft auto-fadein
+  :ASIDE:    right top
+  :SLIDE:    segue
+  :TITLE:    hide
+  :END:
+
+  #+begin_html
+  <h2 class="black">Esta é a idea.</h2>
+  #+end_html
+
+  Agora un exemplo de implementación.
 
 ** Exemplo de roadmap
    :PROPERTIES:
-   :SLIDE:    segue dark quote
+   :SLIDE:    segue dark
    :ASIDE:    right bottom
    :ARTICLE:  flexbox vleft auto-fadein
+   :SUBTITLE: Version 0.1-dev
    :END:
 
 *** Day 1
